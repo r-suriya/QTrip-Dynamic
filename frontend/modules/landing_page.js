@@ -36,7 +36,7 @@ function addCityToDOM(id, city, description, image) {
   let rowElement = document.createElement("div");
   rowElement.className="col-12 col-lg-3 col-sm-6 mb-4";
   console.log(image);
-  rowElement.innerHTML= `<a href="pages/adventures/?city=${id}">
+  rowElement.innerHTML= `<a id = ${id} href="pages/adventures/?city=<id>">
   <div class="tile">
   <img id=${id} src=${image}>
   <div class="tile-text text-center">
